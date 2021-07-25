@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#title {
+  letter-spacing: 1px;
+}
+
+.chips-list ul {
+  list-style: none;
+  list-style: none;
+  margin: 0;
+  padding: 11px;
+}
+
+.chips-list ul li {
+  line-height: 1.8rem;
+}
+
+.chips-list ul li:hover {
+  background: #ddd;
+}
+
+.chip-list-container {
+  background: #fff;
+  width: 40%;
+  position: relative;
+  box-shadow: 2px 3px 4px #ddd;
+}
+
+.chips-list ul li #email-detail {
+  color: #999;
+}
+
+.chips {
+  min-height: 36px;
+  border-bottom: 2px solid #E91E63;
+  line-height: 1;
+  font-size: 1em;
+}
+
+.chips-input {
+  display: inline-block;
+  width: 33%;
+  min-height: 36px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  border: 0;
+  outline: none;
+  font-size: 0.9rem;
+}
+
+.high-light-list {
+  background: #d3d3d3 !important;
+}
+
+.chip {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 25px;
+  position: relative;
+}
+
+.chip .chip-value {
+  display: inline-block;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 7.5px;
+  background: #ddd;
+  color: #000;
+  border-radius: 15px 0 0 15px;
+}
+
+.chip .chip-delete-button {
+  background: #ddd;
+  color: #000;
+  border: 0;
+  border-radius: 0 15px 15px 0;
+  padding: 5px 10px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -25px;
+  line-height: 0.5;
+}
